@@ -1,0 +1,35 @@
+body {
+    background-color: #192A51;
+    font-family: Poppins sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+
+  .apostrof {
+    text-align: center;
+  }
+
+a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: white;
+  }
+  
+  a:link, a:visited {
+    text-decoration: none;
+  }
