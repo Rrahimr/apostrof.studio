@@ -1,45 +1,44 @@
 body {
-  background-color: #192A51;
-  font-family: 'Poppins', sans-serif;
-  display: flex;
-  color: white;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  height: 100vh; 
+    background-color: #192A51;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
 }
 
-#snow{
+#snow {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     pointer-events: none;
-    z-index: 1000; 
-  }
+    z-index: 1000;
+}
 
 .apostrof {
-  text-align: center;
+    text-align: center;
 }
 
 a:link {
-  color: white;
+    color: white;
 }
 
 a:visited {
-  color: white;
+    color: white;
 }
 
 a:hover {
-  color: white;
+    color: white;
 }
 
 a:active {
-  color: white;
+    color: white;
 }
 
 a:link, a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
-
