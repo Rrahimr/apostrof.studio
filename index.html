@@ -5,8 +5,111 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Apostrof</title>
         <link rel="stylesheet" href="style.css"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1 class="apostrof"><a href="https://www.facebook.com/strofstudio/">Apostrof Studio</a></h1>
+        <div id="snow"></div>
+<style>
+	#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+</style>
+<script>
+	document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 200,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": false,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+</script>
+        <h1 class="apostrof"><a href="https://www.facebook.com/strofstudio/">apostrof.studio</a></h1>
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-facebook"></i>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-instagram"></i>
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
